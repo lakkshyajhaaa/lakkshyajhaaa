@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 180" width="100%" height="180" fill="none">
+  <defs>
+    <!-- Gringotts Gold Gradient -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A059" />
+      <stop offset="50%" stop-color="#FFE082" />
+      <stop offset="100%" stop-color="#8A6721" />
+    </linearGradient>
+
+    <!-- Glowing Stardust Filter -->
+    <filter id="sparkle" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Flight Trajectory Path -->
+    <path id="snitch-trajectory" d="M -80,90 Q 200,-30 450,110 T 700,40 Q 800,10 880,70 Q 940,120 890,140 Q 820,130 840,60 T 1100,90" fill="none" />
+  </defs>
+
+  <style>
+    /* Wing Flapping */
+    @keyframes wing-beat {
+      0%, 100% { transform: scaleY(1) rotate(-10deg); }
+      50% { transform: scaleY(0.2) rotate(20deg); }
+    }
+    .wing-l { transform-origin: 0px 0px; animation: wing-beat 0.18s ease-in-out infinite; }
+    .wing-r { transform-origin: 0px 0px; animation: wing-beat 0.18s ease-in-out infinite reverse; }
+
+    /* Sparkle Trail Pulsing */
+    @keyframes trail-fade {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 0.7; }
+    }
+    .trail { stroke-dasharray: 4, 12; animation: trail-fade 1.8s ease-in-out infinite; }
+  </style>
+
+  <!-- Golden Flight Wake Trail -->
+  <use href="#snitch-trajectory" stroke="url(#gold)" stroke-width="1.5" opacity="0.3" class="trail" filter="url(#sparkle)"/>
+
+  <!-- The Animated Golden Snitch Vehicle -->
+  <g>
+    <!-- Physical Flight Along Trajectory -->
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#snitch-trajectory" />
+    </animateMotion>
+
+    <!-- Golden Particle Sparks Dropped in Flight -->
+    <circle cx="-15" cy="0" r="2" fill="#FFE082" opacity="0.8" filter="url(#sparkle)">
+      <animate attributeName="opacity" values="1;0" dur="0.6s" repeatCount="indefinite" />
+      <animate attributeName="r" values="3;0.5" dur="0.6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="-28" cy="2" r="1.5" fill="#C5A059" opacity="0.6" filter="url(#sparkle)">
+      <animate attributeName="opacity" values="0.8;0" dur="0.9s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Left Wing -->
+    <path class="wing-l" d="M 0,0 C -30,-35 -55,-15 -75,-25 C -50,-8 -25,-12 0,0 Z" fill="url(#gold)" opacity="0.85" />
+
+    <!-- Right Wing -->
+    <path class="wing-r" d="M 0,0 C -30,35 -55,15 -75,25 C -50,8 -25,12 0,0 Z" fill="url(#gold)" opacity="0.85" />
+
+    <!-- Central Glowing Gold Core -->
+    <circle cx="0" cy="0" r="10" fill="url(#gold)" filter="url(#sparkle)"/>
+    <circle cx="-2" cy="-2" r="3" fill="#FFFFFF" opacity="0.7"/>
+  </g>
+</svg>
