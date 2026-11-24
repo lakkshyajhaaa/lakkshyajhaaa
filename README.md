@@ -113,12 +113,14 @@ const Vault = {
 
 <div align="center">
 
-<p><em>"Tracking every proof, commit, and spell cast in real time across the season."</em></p>
+<p><em>"The Golden Snitch glides across the pitch, devouring commits and marking active spells."</em></p>
 
-<!-- Live 52-Week GitHub Contribution Grid in Gringotts Gold -->
-<a href="https://github.com/lakkshyajhaaa">
-  <img src="https://ghchart.rshah.org/D4AF37/lakkshyajhaaa" alt="Lakkshya Jha's Contribution History Grid" width="100%" />
-</a>
+<!-- The Live Animated Snake Eating Commits -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lakkshyajhaaa/lakkshyajhaaa/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lakkshyajhaaa/lakkshyajhaaa/output/github-snake.svg" />
+  <img alt="The Golden Snitch Navigating the Commit Pitch" src="https://raw.githubusercontent.com/lakkshyajhaaa/lakkshyajhaaa/output/github-snake-dark.svg" width="100%" />
+</picture>
 
 </div>
 
