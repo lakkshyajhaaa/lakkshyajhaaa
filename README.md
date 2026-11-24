@@ -19,13 +19,16 @@
 
 ---
 
+<!-- Active Flying Snitch Floating Beside the Entire Profile Flow -->
+<img align="right" width="150" src="./assets/snitch-companion.svg" alt="Golden Snitch Flight Companion" />
+
 ### 🏛️ THE DEPARTMENT OF MYSTERIES · ARITHMANCY CHAMBER
 
 <table border="0" width="100%">
 <tr>
 <td width="38%" align="center" valign="middle">
   <!-- Rotating 4D Hypercube integrated as the Arithmancy Core -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Tesseract.gif" width="200" alt="Arithmancy Core" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Tesseract.gif" width="190" alt="Arithmancy Core" />
 </td>
 <td width="62%" valign="middle">
 
