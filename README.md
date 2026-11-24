@@ -113,7 +113,6 @@ const Vault = {
 
 <div align="center">
 
-<p><em>"The Golden Snitch glides across the pitch, devouring commits and marking active spells."</em></p>
 
 <!-- The Live Animated Snake Eating Commits -->
 <picture>
