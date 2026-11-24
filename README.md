@@ -129,7 +129,7 @@ const Vault = {
 <div align="center">
 
 <p><b>✨ Divination & Applied Arithmancy</b></p>
-<img src="https://skillicons.dev/icons?i=py,pytorch,scikitlearn,opencv,numpy,pandas&theme=dark" height="48"/>
+<img src="https://skillicons.dev/icons?i=py,pytorch,scikitlearn,opencv,numpy,pandas&theme=light" height="48"/>
 
 <br/><br/>
 
