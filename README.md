@@ -3,6 +3,9 @@
 <!-- Fluid Waving Gold & Obsidian Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:050505,25:151515,50:D4AF37,75:151515,100:050505&height=220&section=header&text=%E2%96%B3%E2%83%90%E2%97%8B%20%20LAKKSHYA%20JHA%20%20%E2%96%B3%E2%83%90%E2%97%8B&fontSize=38&fontColor=D4AF37&fontAlignY=40&desc=DEPARTMENT%20OF%20MYSTERIES%20%C2%B7%20ARITHMANCY%20%C2%B7%20UNCERTAINTY-AWARE%20AI&descAlignY=62&descAlign=50&descSize=13&descColor=E0D5B7" width="100%"/>
 
+<!-- The Golden Snitch Flying Across the Top Header Trajectory -->
+<img src="./assets/flying-snitch.svg" width="100%" alt="The Golden Snitch in Flight" />
+
 <!-- Marauder's Inscription Ticker -->
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=18&duration=2500&pause=1000&color=D4AF37&center=true&vCenter=true&width=780&lines=%E2%9A%A1+I+solemnly+swear+that+I+am+up+to+no+good+%E2%9A%A1;Calibrating+Machine+Sight%3A+Rejecting+Black-Box+Hallucinations;Local-First+Sovereignty%3A+Zero-Cloud+Cognitive+Parchments;Arithmancy+%C2%B7+Applied+Mathematics+%C2%B7+Systems+Alchemist;%E2%96%B3%E2%83%90%E2%97%8B+Mischief+Managed.+%E2%96%B3%E2%83%90%E2%97%8B" />
 
@@ -18,9 +21,6 @@
 </div>
 
 ---
-
-<!-- Active Flying Snitch Floating Beside the Entire Profile Flow -->
-<img align="right" width="150" src="./assets/snitch-companion.svg" alt="Golden Snitch Flight Companion" />
 
 ### 🏛️ THE DEPARTMENT OF MYSTERIES · ARITHMANCY CHAMBER
 
@@ -109,14 +109,11 @@ const Vault = {
 
 ---
 
-### ⚡ THE SEEKER'S FLIGHT PATH & COMMIT LEDGER
+### ⚡ THE SEEKER'S COMMIT LEDGER
 
 <div align="center">
 
-<!-- The Live Flying Snitch (Swooping loop-de-loop across the screen) -->
-<img src="./assets/flying-snitch.svg" width="100%" alt="The Golden Snitch in Flight" />
-
-<p><em>"The Snitch darts across the pitch, executing a loop and diving into the contribution ledger."</em></p>
+<p><em>"Tracking every proof, commit, and spell cast in real time across the season."</em></p>
 
 <!-- Live 52-Week GitHub Contribution Grid in Gringotts Gold -->
 <a href="https://github.com/lakkshyajhaaa">
